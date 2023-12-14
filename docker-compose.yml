@@ -1,0 +1,6 @@
+﻿services:
+  fsharpapi:
+    image: fsharpapi
+    build:
+      context: .
+      dockerfile: Dockerfile
